@@ -20,7 +20,8 @@
       const allCookie = document.cookie;
       console.log(`int_21h-allCookie:`, allCookie);
       const dealUrl = window.location.href;
-      document.cookie = `dealUrl${counter}=${dealUrl}`;
+      document.cookie = "myValue=5;path=/;domain=example.com"
+      document.cookie = `dealUrl${counter}=${dealUrl};path=/;domain=github.io`;
       counter++;
     })
 
